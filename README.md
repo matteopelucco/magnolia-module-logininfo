@@ -41,9 +41,9 @@ with a dedicated class, able to expose a new **infofn** Freemarker utility, and 
 
 ## What you can do
 
-The simplest usage is to enter 2 lines: 
-- heading
-- subheading
+The simplest usage is to enter 2 lines of text: 
+- loginSummary: a kind of a "title", rendererd as an H3.
+- loginDetail: a kind of a "subtitle", rendered as an H4.
 
 But if you want to display instance-specific information, you can use Magnolia Properties, with the following syntax: 
 
