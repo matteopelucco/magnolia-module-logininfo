@@ -75,6 +75,8 @@ If needed, you can disable it removing the lines from Magnolia Module Logininfo 
 
 ![Magnolia Module Logininfo - Message to editors](https://raw.githubusercontent.com/matteopelucco/magnolia-module-logininfo/master/etc/screenshot-011.png)
 
+In this way, you can mix *advanced* environment configuration, decorating for instance only Author Instances and leaving Public Instances in the standard format, to avoid to offer server-side information to potential attackers (but consider to hide /.magnolia to the public. this is much, much better..) 
+
 ## Fallback or module removal
 
 After module wrong installation or customization, or module removal, you can encounter a screen like the following one: 
