@@ -23,7 +23,7 @@ If everything works fine, you should see the following standard information at M
 ![Magnolia Module Logininfo - Installation 1](https://raw.githubusercontent.com/matteopelucco/magnolia-module-logininfo/master/screenshot-001.png)
 
 Just install it. No additional information are required.
-When installation ends, your login screen should appear with a new -header bar-: 
+When installation ends, your login screen should appear with a new *header bar*: 
 
 ![Magnolia Module Logininfo - Installation 2](https://raw.githubusercontent.com/matteopelucco/magnolia-module-logininfo/master/screenshot-002.png)
 
