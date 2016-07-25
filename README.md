@@ -81,7 +81,7 @@ After module wrong installation or customization, or module removal, you can enc
 
 In this case, you can use a different login method to bypass the "form" one: just put the following queryString:
 
-** ?mgnlUserId=<username>&mgnlUserPSWD=<password> **
+** ?mgnlUserId=__username__&mgnlUserPSWD=__password__ **
 
 ![Magnolia Module Logininfo - Alternative login method](https://raw.githubusercontent.com/matteopelucco/magnolia-module-logininfo/master/etc/screenshot-007.png)
 
