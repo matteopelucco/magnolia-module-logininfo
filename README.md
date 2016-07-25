@@ -4,4 +4,4 @@ Simple module to display useful information on Magnolia Admincentral login scree
 
 [[https://raw.githubusercontent.com/matteopelucco/magnolia-module-logininfo/master/screenshot-000.png|alt="screen"]]
 
-![My image](matteopelucco.github.com/repository/img/image.jpg)
+![My image](https://raw.githubusercontent.com/matteopelucco/magnolia-module-logininfo/master/screenshot-001.png)
