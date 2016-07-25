@@ -73,6 +73,8 @@ Or you can send useful messages to editors:
 
 If needed, you can disable it removing the lines from Magnolia Module Logininfo cofiguration: 
 
+![Magnolia Module Logininfo - Message to editors](https://raw.githubusercontent.com/matteopelucco/magnolia-module-logininfo/master/etc/screenshot-011.png)
+
 ## Fallback or module removal
 
 After module wrong installation or customization, or module removal, you can encounter a screen like the following one: 
