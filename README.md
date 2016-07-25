@@ -6,7 +6,8 @@ This module allows to display few information on a Magnolia CMS Login screen, us
 
 ## Installation
 
-The quicker way to try this module is to download the .jar in the bundle and drop it in WEB-INF/lib folder of your Magnolia instance.
+The quicker way to try this module is to download the .jar from releases and drop it in WEB-INF/lib folder of your Magnolia instance.
+
 For a "pro" and indeed better usage, clone from this repo, declare it in your webapp pom using the following Maven dependancy: 
 
 ```xml
