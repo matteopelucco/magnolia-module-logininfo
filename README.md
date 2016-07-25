@@ -32,7 +32,12 @@ This module has been succesfully tested against Magnolia CE / EE 5.4.x
 
 ## Configuration
 
-[put here a sample of config (callback + module config)]
+What this module does in the background?
+During installation, it replace the standard "form" securityCallback: 
+
+![Magnolia Module Logininfo - Installation 2](https://raw.githubusercontent.com/matteopelucco/magnolia-module-logininfo/master/screenshot-004.png)
+
+with a dedicated class, able to expose a new **infofn** Freemarker utility, and a dedicated HTML file. This file, a Freemarker file to be more precise, is taken from the Community Edition of the current Magnolia installation, adding a simple header bar on top.
 
 ## What you can do
 
@@ -54,4 +59,33 @@ Feel free to change it, or to use as many properties you need (full properties l
 
 ## Examples
 
+You can put static text, like this: 
 
+Or you can show a lot of properties, mixed with text: 
+
+Or you can send useful messages to editors: 
+
+If needed, you can disable it removing the lines from Magnolia Module Logininfo cofiguration: 
+
+## Fallback or module removal
+
+After module wrong installation or customization, or module removal, you can encounter a screen like the following one: 
+
+![Magnolia Module Logininfo - SecurityCallback error](https://raw.githubusercontent.com/matteopelucco/magnolia-module-logininfo/master/screenshot-005.png)
+
+In this case, you can use a different login method to bypass the "form" one: just put the following queryString:
+
+** ?mgnlUserId=<username>&mgnlUserPSWD=<password> **
+
+![Magnolia Module Logininfo - Alternative login method](https://raw.githubusercontent.com/matteopelucco/magnolia-module-logininfo/master/screenshot-007.png)
+
+In this way you can tune your Magnolia instance to use the standard configuration for "form" callback: 
+
+```
+class: info.magnolia.cms.security.auth.callback.FormClientCallback
+loginForm: /defaultMagnoliaLoginForm/login.html
+```
+
+## License
+
+Feel free to use this module as you want. But if you use it and you like it, let me know!
