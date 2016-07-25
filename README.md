@@ -61,9 +61,15 @@ Feel free to change it, or to use as many properties you need (full properties l
 
 You can put static text, like this: 
 
+![Magnolia Module Logininfo - Static text](https://raw.githubusercontent.com/matteopelucco/magnolia-module-logininfo/master/screenshot-008.png)
+
 Or you can show a lot of properties, mixed with text: 
 
+![Magnolia Module Logininfo - Props and text](https://raw.githubusercontent.com/matteopelucco/magnolia-module-logininfo/master/screenshot-010.png)
+
 Or you can send useful messages to editors: 
+
+![Magnolia Module Logininfo - Message to editors](https://raw.githubusercontent.com/matteopelucco/magnolia-module-logininfo/master/screenshot-009.png)
 
 If needed, you can disable it removing the lines from Magnolia Module Logininfo cofiguration: 
 
