@@ -8,14 +8,14 @@ This module allows to display few information on a Magnolia CMS Login screen, us
 
 The quicker way to try this module is to download the .jar from releases and drop it in WEB-INF/lib folder of your Magnolia instance.
 
-For a "pro" and indeed better usage, clone from this repo, declare it in your webapp pom using the following Maven dependancy: 
+For a "pro" and indeed better usage, clone from this repo, declare it in your webapp pom using the following Maven dependency: 
 
 ```xml
 <!-- Magnolia Module LoginInfo -->
 <dependency>
     <groupId>com.tinext.magnolia</groupId>
     <artifactId>magnolia-module-logininfo</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.0</version>
 </dependency>
 ```
 

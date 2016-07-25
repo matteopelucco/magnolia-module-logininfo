@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.matteopelucco.magnolia</groupId>
 	<artifactId>magnolia-module-logininfo</artifactId>
-	<version>1.0.0</version>
+	<version>1.0.1-SNAPSHOT</version>
 	<name>Magnolia Module Logininfo</name>
 	<description>Simple module to display useful information on Magnolia Admincentral login screen</description>
 
