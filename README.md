@@ -1,7 +1,7 @@
-# magnolia-module-logininfo
+# Magnolia Module Logininfo
 Simple module to display useful information on Magnolia Admincentral login screen
 
----
+--
 This module allows to display few information on a Magnolia CMS Login screen, useful to let editorial and admin team to understand on which environment.
 
 ## Installation
@@ -81,7 +81,7 @@ After module wrong installation or customization, or module removal, you can enc
 
 In this case, you can use a different login method to bypass the "form" one: just put the following queryString:
 
-** ?mgnlUserId=__username__&mgnlUserPSWD=__password__ **
+?mgnlUserId=__username__&mgnlUserPSWD=__password__
 
 ![Magnolia Module Logininfo - Alternative login method](https://raw.githubusercontent.com/matteopelucco/magnolia-module-logininfo/master/etc/screenshot-007.png)
 
